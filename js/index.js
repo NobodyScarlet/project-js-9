@@ -2,7 +2,12 @@
 
 // 1
 
-
+const numOrStr = prompt('Enter number of string');
+if((numOrStr.trim() === '' || isNaN( +numOrStr))) {
+    console.log('fail');
+} else {
+    console.log(+numOrStr);
+}
 
 
 // 2
